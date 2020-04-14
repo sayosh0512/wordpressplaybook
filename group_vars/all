@@ -1,7 +1,7 @@
 # WordPress database settings
-wp_db_name: wordpress
-wp_db_user: wordpress
-wp_db_password: wordpress_db_password
+wp_db_name: mysql-eq5ofn.mysql.database.azure.com
+wp_db_user: dbadmin@mysql-eq5ofn
+wp_db_password: Q!w2e3r4
   
 mysql_port: 3306
 mysql_root_password: root
