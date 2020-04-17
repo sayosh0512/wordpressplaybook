@@ -1,7 +1,7 @@
 # WordPress database settings
 wp_db_name: wordpress
 wp_db_user: wordpress
-wp_db_password: wp_dp_password
+wp_db_password: wordpress_dp_password
   
 mysql_port: 3306
 mysql_root_password: root
