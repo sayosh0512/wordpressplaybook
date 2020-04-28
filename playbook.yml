@@ -2,5 +2,5 @@
 
   roles:
     - wordpress
-    -replication
+    - replication
   
