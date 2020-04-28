@@ -1,15 +1,14 @@
---- 
-- 
-get_url: 
-dest: /home/azureadmin
-group: azureadmin
-mode: 493
-owner: azureadmin
-url: "wget https://raw.githubusercontent.com/asift91/ansiblewp/master/testwp.sh"
-name: "Download replica script using get_url"
-- 
-name: "Run a replica script with arguments (using 'cmd' parameter)"
-script: 
-args: ~
-cmd: "bash /home/azureadmin/testwp.sh"
-executable: /bin/bash
+---
+-
+  get_url:
+    dest: /home/azureadmin
+    group: azureadmin
+    mode: 493
+    owner: azureadmin
+    url: "https://raw.githubusercontent.com/asift91/ansiblewp/master/testwp.sh"
+  name: "Download replica script using get_url"
+-
+  name: "Run a replica script with arguments (using 'cmd' parameter)"
+  shell: /home/azureadmin/testwp.sh
+  args:
+    executable: /bin/bash
