@@ -10,7 +10,7 @@
        group: azureadmin
        owner: azureadmin
 
-	- name: Run a replica script with arguments (using 'cmd' parameter)
+- name: Run a replica script with arguments (using 'cmd' parameter)
   script:
     cmd: bash /home/azureadmin/testwp.sh
     args:
